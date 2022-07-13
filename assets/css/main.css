@@ -9,6 +9,7 @@ body {
 }
 
 html {
+    scroll-behavior: smooth;
     font-size: 20px;
     background: url("../img/cau_vong.jpg") top left / cover;
 }
@@ -155,7 +156,7 @@ a {
 
 .content-list_skill {
     display: flex;
-    height: 300px;
+    height: 400px;
     width: 50%;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -167,14 +168,16 @@ a {
     min-width: 80px;
 }
 
-.img_iproduct {
-    position: absolute;
-    top: 150px;
-    width: 300px;
-    right: 60px;
+.content-list_skill>.img_iproduct {
+    height: 220px;
+    align-self: baseline;
 }
 
 .main p {
     text-indent: 30px;
     margin-top: 10px;
+}
+
+.footer {
+    height: 500px;
 }
